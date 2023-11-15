@@ -2,7 +2,7 @@
 //  ToDoListApp.swift
 //  ToDoList
 //
-//  Created by ivan ruwido  on 15.11.23.
+//  Created by ivan trajanovski  on 15.11.23.
 //
 
 import FirebaseCore
@@ -16,7 +16,7 @@ struct ToDoListApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
