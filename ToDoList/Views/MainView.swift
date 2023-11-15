@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct MainView: View {
+    @StateObject var viewModel = LoginViewViewModel()
+    
     var body: some View {
         NavigationStack {
-            LoginView()
+            LoginView(viewModel: viewModel)
         }
     }
 }
